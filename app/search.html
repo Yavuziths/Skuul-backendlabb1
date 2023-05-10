@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/styles.css" />
+        <script type="text/javascript" src="search.js"></script>
+    </head>
+    <body>
+        <h1>App > Sök</h1>
+
+        <div class="search-active">
+            <br />
+            <label for="keyword">Title:</label>
+            <input id="keyword" type="text" />
+            <br />
+            <label for="author">Author:</label>
+            <input id="author" type="text" />
+            <br />
+            <button id="search" onclick="getResultsByKeyword()">Sök</button>
+        </div>
+
+        <ul id="searchResults"></ul>
+    </body>
+</html>
